@@ -1,0 +1,15 @@
+{
+    "name": "fishpig/magento2-remove-weee",
+    "description": "Remove Weee.",
+    "type": "project",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Magento\\Weee\\": "Mock/Magento/Weee"
+        }
+    },
+    "replace": {
+        "magento/module-weee": "*",
+        "magento/module-weee-graph-ql": "*"
+    }
+}
